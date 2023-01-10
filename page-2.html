@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Slivogram</title>
+  <link rel="icon" href="img/svg/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Orelega+One&family=Raleway:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+  <link rel="stylesheet" href="css/style.min.css">
+  <script src="js/main.min.js" defer></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="layout" data-layout-popup>
+
+  <div class="popup" data-popup>
+    <img class="popup__close" src="img/svg/close.svg" alt="close" data-close-popup>
+    <div class="popup__content" data-popup-first>
+      <div class="popup__top">
+        <img class="popup__img" src="img/svg/18-black.svg" alt="img">
+        <p class="popup__text">По закону РФ мы вынуждены скрыть контент 18+ от несовершеннолетних!
+        </p>
+        <p class="popup__text-second">Подтвердите свой возраст с помощью платежной системы в виде доната!
+        </p>
+      </div>
+      <div class="popup__bottom">
+        <div class="popup__btn-holder">
+          <div class="popup__btn popup__btn--second">
+            <span class="popup__btn-text popup__btn-text--second">Ввести пароль</span>
+          </div>
+          <div class="popup__btn" data-show-second-popup>
+            <span class="popup__btn-text">Получить пароль</span>
+            <div class="popup__btn-label">1 Р</div>
+          </div>
+        </div>
+        <p class="popup__text-bottom">Для разблокировки введите пароль
+        </p>
+        <div class="popup__input-holder">
+          <input class="popup__input" type="text" data-input>
+          <button class="popup__input-btn" data-send-password>Ок</button>
+        </div>
+        <p class="no-password" data-error-password>Такого пароля нет :( Получите пароль!</p>
+      </div>
+    </div>
+    <div class="popup__second-content" data-popup-second>
+      <div class="popup__top popup__top--other">
+        <img class="popup__img" src="img/svg/18-black.svg" alt="img">
+        <p class="popup__text">По закону РФ мы вынуждены скрыть контент 18+ от несовершеннолетних!
+        </p>
+        <p class="popup__text-second popup__text-second--other">Подтвердите свой возраст с помощью платежной системы в
+          виде доната!
+        </p>
+        <div class="popup__btn-holder popup__btn-holder--other">
+
+          <div class="popup__btn">
+            <span class="popup__btn-text">Ввести пароль</span>
+
+          </div>
+          <div class="popup__btn popup__btn--second">
+            <span class="popup__btn-text popup__btn-text--second">Получить пароль</span>
+            <div class="popup__btn-label">1 Р</div>
+          </div>
+        </div>
+        <div class="popup__price-holder">
+          <div class="popup__price">
+            <p class="popup__price-text">Доступ всего за</p>
+            <div class="popup__price-num">1 Р</div>
+
+          </div>
+          <div class="popup__price">
+            <p class="popup__price-text popup__price-text--old">вместо</p>
+            <div class="popup__price-num popup__price-num--old">1899 Р</div>
+          </div>
+        </div>
+      </div>
+      <div class="popup__gray-holder">
+        <div class="popup__gray-inner">
+          <div class="popup__gray-item">
+            <div class="popup__gray-item-img">
+              <img src="img/svg/adult.svg" alt="img">
+            </div>
+            <p class="popup__gray-item-text">Полный доступ к контенту 18+
+              и другим материалам</p>
+          </div>
+          <div class="popup__gray-item">
+            <div class="popup__gray-item-img">
+              <img src="img/svg/tiktok.svg" alt="img">
+            </div>
+            <p class="popup__gray-item-text"> Сливы блогерш • стримерш • тик-токерш и звезд с приваток и ботов</p>
+          </div>
+          <div class="popup__gray-item">
+            <div class="popup__gray-item-img">
+              <img src="img/svg/onlyfans.svg" alt="img">
+            </div>
+            <p class="popup__gray-item-text"> Слив OnlyFans моделей с приватных каналов и аккаунтов</p>
+          </div>
+        </div>
+        <p class="popup__mob-text">Полный доступ к контенту 18+
+          и другим материалам
+          Сливы блогерш • стримерш • тик-токерш и звезд с приваток и ботов
+          Слив OnlyFans моделей с приватных каналов и аккаунтов</p>
+        <div class="popup__btn-holder popup__btn-holder--big">
+          <div class="popup__btn popup__btn--big">
+            <span class="popup__btn-text popup__btn-text--big">Купить пароль</span>
+          </div>
+        </div>
+      </div>
+      <div class="popup__footer">
+        <p class="popup__footer-p">Нажмите кнопку "Вернуться на сайте" на странице оплаты после совершения платежа!
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+    <header class="header">
+      <p class="header__top">Фото и видео сливы популярных блогерш и знаменитостей</p>
+      <div class="container">
+        <div class="header__inner">
+          <a href="index.html">
+            <img class="logo-img" src="img/svg/logo.svg" alt="logo">
+          </a>
+          <p class="header__desc">Фото и видео сливы популярных блогерш и знаменитостей</p>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="index.html">
+                  <i>
+                    <img src="img/svg/home.svg" alt="home">
+                  </i>
+                  <span class="nav__text">Главная</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#" data-show-popup>
+                  <i>
+                    <img src="img/svg/random.svg" alt="random">
+                  </i>
+                  <span class="nav__text">Случайный слив</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#" data-show-popup>
+                  <i>
+                    <img src="img/svg/category.svg" alt="category">
+                  </i>
+                  <span class="nav__text">Категории</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="search" data-show-popup>
+            <i>
+              <img class="search__img" src="img/svg/search.svg" alt="search">
+            </i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="top">
+        <div class="container">
+          <div class="top__inner">
+            <div class="top__items">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img class="swiper__img" src="img/top-img-1.png" alt="img">
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="swiper__img" src="img/top-img-2.png" alt="img">
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="swiper__img" src="img/top-img-3.png" alt="img">
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="swiper__img" src="img/top-img-4.png" alt="img">
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="swiper__img" src="img/top-img-5.png" alt="img">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="top__right-item">
+              <div class="exclusive__main">
+                <p class="exclusive__main-text">Экслюзив недели</p>
+                <img src="img/top-right-img.png" alt="img">
+              </div>
+              <div class="exclusive__content">
+                <p class="exclusive__desc">Инстаблядь с длинным именем</p>
+                <div class="exclusive__nick">@nicknamemodellong</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="container">
+        <div class="title__holder-main title__holder-main--amount">
+          <div class="title__amount">111 фото</div>
+          <h2 class="title">Валя Карнавал </h2>
+        </div>
+        <div class="person">
+          <div class="person__inner">
+            <div class="person__img">
+              <img src="img/valya-karnaval/main.jpg" alt="person">
+            </div>
+            <div class="person__content">
+              <div class="person__nick">@karna.val</div>
+              <div class="person__desc" data-scrollbar>
+                <p class="person__desc-inner">
+                  Валя Карнавал умеет выбирать шикарные образы для появления на телевидении. Умеет отслеживать тренды в
+                  Tik-Tok чартах для того, чтобы выкинуть в топовый контент для своих подписчиков. Но Валя совсем не
+                  умеет отправлять конфиденциальные фото тем, кто оставит их вдали от глаз продвинутых пользователей
+                  интернета! Шикарные приватные нюдсы 21-летней звезды шоу-бизнеса уже ждут тебя!
+                </p>
+              </div>
+              <div class="person__btn-holder">
+                <div class="person__btn-privat">
+                  <span class="person__btn-text" data-show-popup>Приват</span>
+                  <img class="person__btn-img" src="img/svg/18.svg" alt="img">
+                </div>
+                <div class="person__btn-privat person__btn-privat--second" data-i-like>
+                  <span class="person__btn-text person__btn-text--second">Мне нравится</span>
+                  <svg class="person__btn-img person__btn-img--second" width="19" height="17" viewBox="0 0 19 17"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M5.5375 1C3.03156 1 1 3.03156 1 5.5375C1 10.075 6.3625 14.2 9.25 15.1595C12.1375 14.2 17.5 10.075 17.5 5.5375C17.5 3.03156 15.4684 1 12.9625 1C11.428 1 10.0709 1.76189 9.25 2.92803C8.83159 2.33205 8.27574 1.84566 7.62951 1.51005C6.98327 1.17444 6.26568 0.999486 5.5375 1Z"
+                      stroke="#FF3BCA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="person__desc person__desc--mob" data-scrollbar>
+            <p class="person__desc-inner">
+              Валя Карнавал умеет выбирать шикарные образы для появления на телевидении. Умеет отслеживать тренды в
+              Tik-Tok чартах для того, чтобы выкинуть в топовый контент для своих подписчиков. Но Валя совсем не умеет
+              отправлять конфиденциальные фото тем, кто оставит их вдали от глаз продвинутых пользователей интернета!
+              Шикарные приватные нюдсы 21-летней звезды шоу-бизнеса уже ждут тебя!
+            </p>
+          </div>
+        </div>
+        <div class="galery">
+          <div class="galery__item">
+            <div class="galery__img-holder">
+              <img src="img/valya-karnaval/1.jpeg" alt="img">
+            </div>
+            <div class="galery__info">
+              <div class="galery__like-holder" data-like>
+                <img src="img/svg/like.svg" alt="img">
+                <span class="galery__like-amount" data-like-amount>521</span>
+              </div>
+              <div class="galery__comments-holder">
+                <img src="img/svg/comments.svg" alt="comments">
+                <span class="galery__comments-text">122 комментариев</span>
+              </div>
+              <div class="galery__dowload-btn" data-show-popup>
+                <img src="img/svg/download.svg" alt="download">
+              </div>
+            </div>
+          </div>
+          <div class="galery__item">
+            <div class="galery__img-holder">
+              <img src="img/valya-karnaval/2.jpg" alt="img">
+              <div class="girl__blur"></div>
+              <div class="vip">
+                <img class="vip__img" src="img/svg/vip.svg" alt="vip">
+                <div class="vip__btn" data-show-popup>
+                  <span class="vip__btn-text">Открыть доступ</span>
+                  <img class="vip__btn-img" src="img/svg/18-big.svg" alt="img">
+                </div>
+              </div>
+            </div>
+            <div class="galery__info">
+              <div class="galery__like-holder" data-like>
+                <img src="img/svg/like.svg" alt="img">
+                <span class="galery__like-amount" data-like-amount>533</span>
+              </div>
+              <div class="galery__comments-holder">
+                <img src="img/svg/comments.svg" alt="comments">
+                <span class="galery__comments-text">219 комментариев</span>
+              </div>
+              <div class="galery__dowload-btn" data-show-popup>
+                <img src="img/svg/download.svg" alt="download">
+              </div>
+            </div>
+          </div>
+          <div class="galery__item">
+            <div class="galery__img-holder">
+              <img src="img/valya-karnaval/3.jpg" alt="img">
+            </div>
+            <div class="galery__info">
+              <div class="galery__like-holder" data-like>
+                <img src="img/svg/like.svg" alt="img">
+                <span class="galery__like-amount" data-like-amount>602</span>
+              </div>
+              <div class="galery__comments-holder">
+                <img src="img/svg/comments.svg" alt="comments">
+                <span class="galery__comments-text">213 комментариев</span>
+              </div>
+              <div class="galery__dowload-btn" data-show-popup>
+                <img src="img/svg/download.svg" alt="download">
+              </div>
+            </div>
+          </div>
+          <div class="galery__item">
+            <div class="galery__img-holder">
+              <img src="img/valya-karnaval/4.png" alt="img">
+            </div>
+            <div class="galery__info">
+              <div class="galery__like-holder" data-like>
+                <img src="img/svg/like.svg" alt="img">
+                <span class="galery__like-amount" data-like-amount>781</span>
+              </div>
+              <div class="galery__comments-holder">
+                <img src="img/svg/comments.svg" alt="comments">
+                <span class="galery__comments-text">153 комментариев</span>
+              </div>
+              <div class="galery__dowload-btn" data-show-popup>
+                <img src="img/svg/download.svg" alt="download">
+              </div>
+            </div>
+          </div>
+          <div class="galery__item">
+            <div class="galery__img-holder">
+              <img src="img/valya-karnaval/5.jpg" alt="img">
+            </div>
+            <div class="galery__info">
+              <div class="galery__like-holder" data-like>
+                <img src="img/svg/like.svg" alt="img">
+                <span class="galery__like-amount" data-like-amount>404</span>
+              </div>
+              <div class="galery__comments-holder">
+                <img src="img/svg/comments.svg" alt="comments">
+                <span class="galery__comments-text">222 комментариев</span>
+              </div>
+              <div class="galery__dowload-btn" data-show-popup>
+                <img src="img/svg/download.svg" alt="download">
+              </div>
+            </div>
+          </div>
+          <div class="galery__item">
+            <div class="galery__img-holder">
+              <img src="img/valya-karnaval/6.jpg" alt="img">
+              <div class="girl__blur"></div>
+              <div class="vip">
+                <img class="vip__img" src="img/svg/vip.svg" alt="vip">
+                <div class="vip__btn" data-show-popup>
+                  <span class="vip__btn-text">Открыть доступ</span>
+                  <img class="vip__btn-img" src="img/svg/18-big.svg" alt="img">
+                </div>
+              </div>
+            </div>
+            <div class="galery__info">
+              <div class="galery__like-holder" data-like>
+                <img src="img/svg/like.svg" alt="img">
+                <span class="galery__like-amount" data-like-amount>512</span>
+              </div>
+              <div class="galery__comments-holder">
+                <img src="img/svg/comments.svg" alt="comments">
+                <span class="galery__comments-text">213 комментариев</span>
+              </div>
+              <div class="galery__dowload-btn" data-show-popup>
+                <img src="img/svg/download.svg" alt="download">
+              </div>
+            </div>
+          </div>
+          <div class="galery__item">
+            <div class="galery__img-holder">
+              <img src="img/valya-karnaval/7.jpg" alt="img">
+            </div>
+            <div class="galery__info">
+              <div class="galery__like-holder" data-like>
+                <img src="img/svg/like.svg" alt="img">
+                <span class="galery__like-amount" data-like-amount>604</span>
+              </div>
+              <div class="galery__comments-holder">
+                <img src="img/svg/comments.svg" alt="comments">
+                <span class="galery__comments-text">281 комментариев</span>
+              </div>
+              <div class="galery__dowload-btn" data-show-popup>
+                <img src="img/svg/download.svg" alt="download">
+              </div>
+            </div>
+          </div>
+          <div class="galery__item">
+            <div class="galery__img-holder">
+              <img src="img/valya-karnaval/8.jpg" alt="img">
+              <div class="girl__blur"></div>
+              <div class="vip">
+                <img class="vip__img" src="img/svg/vip.svg" alt="vip">
+                <div class="vip__btn" data-show-popup>
+                  <span class="vip__btn-text">Открыть доступ</span>
+                  <img class="vip__btn-img" src="img/svg/18-big.svg" alt="img">
+                </div>
+              </div>
+            </div>
+            <div class="galery__info">
+              <div class="galery__like-holder" data-like>
+                <img src="img/svg/like.svg" alt="img">
+                <span class="galery__like-amount" data-like-amount>536</span>
+              </div>
+              <div class="galery__comments-holder">
+                <img src="img/svg/comments.svg" alt="comments">
+                <span class="galery__comments-text">278 комментариев</span>
+              </div>
+              <div class="galery__dowload-btn" data-show-popup>
+                <img src="img/svg/download.svg" alt="download">
+              </div>
+            </div>
+          </div>
+          <div class="galery__item">
+            <div class="galery__img-holder">
+              <img src="img/valya-karnaval/9.jpg" alt="img">
+            </div>
+            <div class="galery__info">
+              <div class="galery__like-holder" data-like>
+                <img src="img/svg/like.svg" alt="img">
+                <span class="galery__like-amount" data-like-amount>611</span>
+              </div>
+              <div class="galery__comments-holder">
+                <img src="img/svg/comments.svg" alt="comments">
+                <span class="galery__comments-text">298 комментариев</span>
+              </div>
+              <div class="galery__dowload-btn" data-show-popup>
+                <img src="img/svg/download.svg" alt="download">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="title__holder-main">
+          <img class="icon-big icon-big--lips" src="img/lips-main.png" alt="img">
+          <h2 class="title">Cливы по категориям</h2>
+        </div>
+        <div class="overflow">
+          <div class="overflow__item">
+            <div class="title__holder">
+              <h3 class="title__overflow">OnlyFans</h3>
+              <img class="icon" src="img/heart.png" alt="img">
+            </div>
+            <img class="overflow__img" src="img/overflow-1.png" alt="img">
+            <img class="overflow__mob-img" src="img/overflow-mob-1.png" alt="img">
+            <a class="overflow__link" href="#" data-show-popup>Перейти</a>
+          </div>
+          <div class="overflow__item">
+            <div class="title__holder">
+              <h3 class="title__overflow">Стримерши </h3>
+              <img class="icon" src="img/tongue.png" alt="img">
+            </div>
+            <img class="overflow__img" src="img/overflow-2.png" alt="img">
+            <img class="overflow__mob-img" src="img/overflow-mob-2.png" alt="img">
+            <a class="overflow__link" href="#" data-show-popup>Перейти</a>
+          </div>
+          <div class="overflow__item">
+            <div class="title__holder">
+              <h3 class="title__overflow">Тик-токерши</h3>
+              <img class="icon" src="img/lips.png" alt="img">
+            </div>
+            <img class="overflow__img" src="img/overflow-3.png" alt="img">
+            <img class="overflow__mob-img" src="img/overflow-mob-3.png" alt="img">
+            <a class="overflow__link" href="#" data-show-popup>Перейти</a>
+          </div>
+          <div class="overflow__item">
+            <div class="title__holder">
+              <h3 class="title__overflow">Инстаграм 👠</h3>
+            </div>
+            <img class="overflow__img" src="img/overflow-4.png" alt="img">
+            <img class="overflow__mob-img" src="img/overflow-mob-4.png" alt="img">
+            <a class="overflow__link" href="#" data-show-popup>Перейти</a>
+          </div>
+          <div class="overflow__item">
+            <div class="title__holder">
+              <h3 class="title__overflow">Блогерши 💄</h3>
+            </div>
+            <img class="overflow__img" src="img/overflow-5.png" alt="img">
+            <img class="overflow__mob-img" src="img/overflow-mob-5.png" alt="img">
+            <a class="overflow__link" href="#" data-show-popup>Перейти</a>
+          </div>
+        </div>
+        <div class="title__holder-main">
+          <h2 class="title">💬 Топ комментариев</h2>
+        </div>
+        <div class="comments">
+          <img class="comments__img" src="img/comments.png" alt="img">
+          <div class="comments__right-item">
+            <div class="exclusive__comments">
+              <p class="exclusive__comments-text">Экслюзив недели</p>
+              <img src="img/exclusive.png" alt="img">
+            </div>
+            <div class="exclusive__comments-content">
+              <p class="exclusive__comments-desc">Инстаблядь с длинным именем</p>
+              <div class="exclusive__comments-nick">@nicknamemodellong</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="sep">
+            <div class="sep__line"></div>
+            <div class="sep__circle">18+</div>
+            <div class="sep__line"></div>
+          </div>
+          <div class="copyright">2023. ЗвездоСлив.</div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+</body>
+
+</html>
